@@ -19,6 +19,11 @@ public void worker (long mobile) {
 public void worker (byte n) {
 	System.out.println(n);
 }
+
+public void worker(Double salary) {
+	System.out.println(salary);
+
+}
    
 public static void main(String[] args) {
 	karthik k=new karthik();
@@ -26,7 +31,9 @@ public static void main(String[] args) {
 	k.worker("jhgfd");
 	k.worker(123456789);
 	k.worker(112345667);
+	k.worker(23456);
 	k.worker(55);
+
 	
 	
 }
