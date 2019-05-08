@@ -14,6 +14,10 @@ public void worker (float num ) {
 }
 public void worker (long mobile) {
 	System.out.println("mobile");
+	
+}
+public void worker (byte n) {
+	System.out.println(n);
 }
 
 public void worker(Double salary) {
@@ -28,6 +32,8 @@ public static void main(String[] args) {
 	k.worker(123456789);
 	k.worker(112345667);
 	k.worker(23456);
+	k.worker(55);
+
 	
 	
 }
